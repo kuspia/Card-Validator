@@ -1,5 +1,12 @@
 # Card-Validator- A web tool to validate the cc number to avoid fraudulent activities and unnecessary penetrations.
 
+### Category: Finance
+This tool try to illustrate the following concepts in general. 
+> Using fraud detection systems for finances
+
+> Build secure systems by using stronger encryption algorithms for online payments / transactions
+
+
 Credit card numbers are generated according to certain rules. It gives merchants a way to verify the validity of a card number before accepting the customer's payment.
 
 ## The importance of credit card validation 
