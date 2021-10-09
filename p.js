@@ -41,7 +41,7 @@ function detectCard(input) {
 
 
 $('input.cc').keydown(function(){ // as soon as key is up this will execute
-	alert("Hello! I am an alert box!");
+	
 	
 	var val = this.value, // var will contain value in the box field
       val = val.replace(/[^0-9]/g, ''), // replace all non numeric charactyer with nothing
