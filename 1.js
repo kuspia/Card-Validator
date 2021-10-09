@@ -40,7 +40,7 @@ function detectCard(input) {
 }
 
 
-$('input.cc').keyup(function(){ // as soon as key is up this will execute
+$('input.cc').keydown(function(){ // as soon as key is up this will execute
 	var val = this.value, // var will contain value in the box field
       val = val.replace(/[^0-9]/g, ''), // replace all non numeric charactyer with nothing
 		detected = detectCard(val),
