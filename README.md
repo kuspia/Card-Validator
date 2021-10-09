@@ -2,7 +2,7 @@
 
 Credit card numbers are generated according to certain rules. It gives merchants a way to verify the validity of a card number before accepting the customer's payment.
 
-## The importance of credit card validation
+## The importance of credit card validation 
 
 It is important to keep in mind that whenever fraudulent cards are used, the merchant loses if too many fraudulent transactions occur, you may incur higher processing fees, expensive chargebacks, or even losing your merchant account and your ability to do business.
 
