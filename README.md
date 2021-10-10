@@ -27,6 +27,5 @@ Supported Cards:
 #### Following resources were referred to deploy this tool:
 https://www.creditcardinsider.com/learn/anatomy-of-a-credit-card/#credit-card-number
 
-https://www.prepostseo.com/tool/credit-card-validator
 
 
