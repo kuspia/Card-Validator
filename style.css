@@ -62,15 +62,45 @@ body {
   background-color: #f5f5f5;
 }
 
+.nav {
+  /* width: 600px; */
+  padding: 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  gap: 30px;
+  border-bottom: 1px solid #0093e9;
+}
+.nav > a,
+.nav > a:active {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid #0093e9;
+  border-radius: 5px;
+  background: #0093e9;
+  color: #f5f5f5;
+
+  padding: 5px 20px;
+}
+
 .bg-text {
-  /* border: 1px solid red; */
+  margin-top: 5px;
+
+  /* width: 500px; */
 
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-self: center;
   font-size: 5rem;
   /* margin-top: 55px; */
   font-weight: 700;
+  font-family: "Space Mono", monospace;
+
   color: #181818;
 }
 
@@ -109,6 +139,8 @@ body {
 }
 
 .cc {
+  font-family: "Space Mono", monospace;
+
   background: url("./img/cards.png") 3px 3px no-repeat;
   text-align: center;
   display: block;
