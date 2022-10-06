@@ -53,11 +53,16 @@ $("input.cc").keyup(function () {
   console.log(valueCheck);
   if (luhnCheck && valueCheck) {
     errorClass = "verified";
+    document.querySelector("body").style.backgroundColor =
+      "rgba(0, 255, 0, 0.3)";
     console.log(status);
   } else if (valueCheck || val.length > detected[2]) {
     errorClass = "error";
+    document.querySelector("body").style.backgroundColor =
+      "rgba(255, 0, 0, 0.5)";
+  } else {
+    document.querySelector("body").style.backgroundColor = "#f5f5f5";
   }
-
   $(this).attr("class", "cc " + detected[0] + " " + errorClass);
 });
 
